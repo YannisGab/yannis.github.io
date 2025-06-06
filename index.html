@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Étudiant B.Eng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <img src="photo.jpg" alt="Photo de profil" class="profile-img">
+            <div class="intro-text">
+                <h1>Bienvenue sur mon portfolio</h1>
+                <p>Étudiant en première année de B.Eng, passionné par les technologies et l’ingénierie.</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#formations">Formations & Expériences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="competences">
+            <h2>Compétences</h2>
+            <ul>
+                <li>HTML & CSS (niveau débutant)</li>
+                <li>Programmation Python</li>
+                <li>Travail collaboratif (projets d’équipe)</li>
+                <li>Analyse et résolution de problèmes</li>
+            </ul>
+        </section>
+
+        <section id="projets">
+            <h2>Projets</h2>
+            <article>
+                <h3>Calculatrice Python</h3>
+                <p>Développement d’une calculatrice en ligne de commande capable d’effectuer des opérations simples (addition, soustraction, etc.).</p>
+            </article>
+            <article>
+                <h3>Mini site web personnel</h3>
+                <p>Réalisation d’un site statique en HTML et CSS pour apprendre les bases du développement web.</p>
+            </article>
+        </section>
+
+        <section id="formations">
+            <h2>Formations & Expériences</h2>
+            <p>Actuellement en 1ère année de B.Eng à l'École d'Ingénierie. Solides bases scientifiques et mathématiques. Stage d’initiation effectué en 2024 dans une entreprise technologique locale.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Portfolio Étudiant B.Eng. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
